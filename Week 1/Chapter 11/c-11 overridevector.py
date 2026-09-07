@@ -9,7 +9,6 @@ class Vector:
     def __mul__(self, v):
         return self.x * v.x + self.y * v.y
 
-    # Overload len()
     def __len__(self):
         return 2
 
