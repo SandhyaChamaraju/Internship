@@ -1,4 +1,3 @@
-#addition of 2 numbers
 a=12
 b=10
 print("value of a=",a)
