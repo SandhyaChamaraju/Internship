@@ -17,7 +17,6 @@ class BankAccount:
         print("Current balance:", self.balance)
 
 
-# Create bank account object
 account = BankAccount(1000)
 
 account.deposit(500)
