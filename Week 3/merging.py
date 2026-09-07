@@ -1,5 +1,3 @@
-# Merge two text files into a third file
-
 with open("file1.txt", "r") as f1:
     data1 = f1.read()
 
