@@ -30,15 +30,10 @@ class Bill:
         print("Tax:", tax)
         print("Final Bill:", final_total)
 
-
-# Create products
 p1 = Product("Pen", 10, 2)
 p2 = Product("Book", 50, 3)
 
-# Create bill
 bill = Bill()
 bill.add_product(p1)
 bill.add_product(p2)
-
-# Display bill
 bill.display_bill()
