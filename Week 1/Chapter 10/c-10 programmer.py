@@ -12,7 +12,6 @@ class Programmer:
         print(f"Department: {self.department}")
         print(f"Salary: ${self.salary:,}\n")
 
-# Creating object instances
 p1 = Programmer("Alisha", "Azure Cloud", 120000)
 p2 = Programmer("Rohan", "Developer Tools", 115000)
 
