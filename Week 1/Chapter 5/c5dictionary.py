@@ -1,4 +1,3 @@
-# Create Hindi to English dictionary
 hindi_dict = {
     "namaste": "Hello",
     "kitab": "Book", 
