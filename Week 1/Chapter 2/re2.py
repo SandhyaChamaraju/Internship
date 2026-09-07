@@ -1,5 +1,3 @@
-#reminder
-
 num = 34
 z = 5
 
