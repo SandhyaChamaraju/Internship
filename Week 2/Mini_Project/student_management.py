@@ -2,7 +2,6 @@ import csv
 
 file = "students.csv"
 
-# Create file with headings
 try:
     open(file, "r")
 except:
@@ -11,8 +10,6 @@ except:
     writer.writerow(["Roll Number", "Name", "Marks"])
     f.close()
 
-
-# Add student
 def add_student():
     roll = input("Enter Roll Number: ")
     name = input("Enter Name: ")
@@ -25,8 +22,6 @@ def add_student():
 
     print("Student added successfully!")
 
-
-# View students
 def view_students():
     f = open(file, "r")
     reader = csv.reader(f)
@@ -36,8 +31,6 @@ def view_students():
 
     f.close()
 
-
-# Search student
 def search_student():
     roll = input("Enter Roll Number: ")
 
@@ -56,8 +49,6 @@ def search_student():
     print("Student not found.")
     f.close()
 
-
-# Delete student
 def delete_student():
     roll = input("Enter Roll Number to delete: ")
 
@@ -78,7 +69,6 @@ def delete_student():
     print("Student deleted successfully!")
 
 
-# Main menu
 while True:
     print("\n--- Student Management System ---")
     print("1. Add Student")
