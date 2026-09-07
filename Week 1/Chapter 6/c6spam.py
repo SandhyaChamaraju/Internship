@@ -4,9 +4,9 @@ def is_spam(comment):
 
   for keyword in spam_keywords:
     if keyword in comment_lower:
-      return True  # Spam detected
+      return True  
 
-  return False  # Not spam
+  return False 
 
 
 
