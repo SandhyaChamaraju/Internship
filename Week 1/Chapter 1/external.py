@@ -1,13 +1,10 @@
 import sys
 from colorama import Fore, Back, Style, init
 
-# Detect if running inside an IDE (Thonny, IDLE, PyCharm, VSCode) 
-# IDE consoles do NOT support ANSI colors — isatty() returns False in IDEs
+
 is_real_terminal = hasattr(sys.stdout, "isatty") and sys.stdout.isatty()
 
 if is_real_terminal:
-    # --- RUNNING IN REAL TERMINAL (CMD / PowerShell) ---
-    # init() enables Windows ANSI color support
     init(autoreset=True)
 
     if hasattr(sys.stdout, "reconfigure"):
