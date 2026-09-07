@@ -15,15 +15,10 @@ def calculate_grade(marks):
     else:
         return "F"
 
-# Main block to test the function
+
 try:
-    # Take user input and convert it to a floating-point number
     student_marks = float(input("Enter the student's marks: "))
-    
-    # Get the grade
     grade = calculate_grade(student_marks)
-    
-    # Display the result
     print(f"Marks: {student_marks} -> Grade: {grade}")
 
 except ValueError:
