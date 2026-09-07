@@ -1,5 +1,4 @@
 def game():
-    # Game code goes here
     score = int(input("Enter your score: "))
     return score
 
