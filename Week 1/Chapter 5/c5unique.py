@@ -8,6 +8,5 @@ for i in range(8):
     if num not in unique_numbers:
         unique_numbers.append(num)
 
-# Display the unique numbers
 print("\nThe unique numbers are:")
 print(unique_numbers)
