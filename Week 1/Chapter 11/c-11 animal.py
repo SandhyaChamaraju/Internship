@@ -12,8 +12,6 @@ class Dog(Pets):
     def bark(self):
         print("Woof! Woof!")
 
-
-# Create a Dog object
 d = Dog("Tommy")
 
 print("Dog's name:", d.name)
