@@ -15,8 +15,6 @@ class Vector3D(EzdVector):
     def display(self):
         print(f"({self.x}, {self.y}, {self.z})")
 
-
-# Create objects
 v1 = EzdVector(2, 3)
 v2 = Vector3D(2, 3, 4)
 
