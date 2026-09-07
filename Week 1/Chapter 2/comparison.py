@@ -1,4 +1,3 @@
-# Assigning variables
 a = 34
 b = 80
 
